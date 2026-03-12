@@ -1,9 +1,8 @@
-Name: Kavya Rati
-Email: kavya.rati@email.com
-College: XYZ College of Engineering
-Skill Track: AI & Machine Learning
+Name: Kavya Rati<br>
+Email: kavyarati1976@gmail.com<br>
+College: K.L.E INSTITUTE OF TECHNOLOGY, HUBLI<br>
+Skill Track: AI & Machine Learning<br>
 Project: Satellite Radiation Analysis App – predicts radiation levels using input data.
-
 
 
 # AI-Based Satellite Radiation Failure Detection
