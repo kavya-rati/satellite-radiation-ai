@@ -1,3 +1,11 @@
+Name: Kavya Rati
+Email: kavya.rati@email.com
+College: XYZ College of Engineering
+Skill Track: AI & Machine Learning
+Project: Satellite Radiation Analysis App – predicts radiation levels using input data.
+
+
+
 # AI-Based Satellite Radiation Failure Detection
 
 This project simulates an AI-powered monitoring system used to analyze radiation test data of satellite subsystems.
@@ -22,19 +30,8 @@ Scikit-learn
 
 ## Architecture
 
-Radiation Dataset
-        ↓
-Data Processing
-        ↓
-AI Anomaly Detection
-        ↓
-Failure Risk Score
-        ↓
-Visualization Dashboard
-
-
-
-
+Radiation Dataset-> Data processing ->AI anomoly detection -> failure risk score -> visualization dashboard
+      
 
 ## Use Case
 
