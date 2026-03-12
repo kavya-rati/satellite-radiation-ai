@@ -1,40 +1,47 @@
 # AI-Based Satellite Radiation Failure Detection
 
-Author: Kavya Rati
+This project simulates an AI-powered monitoring system used to analyze radiation test data of satellite subsystems.
 
-## Overview
-
-This project simulates an AI-based monitoring system that evaluates satellite electronic subsystems under radiation exposure.
-
-The system analyzes voltage degradation and detects anomalies using machine learning.
+The system detects anomalies, analyzes voltage degradation, and estimates failure risk using machine learning.
 
 ## Features
 
 - Radiation dose vs voltage analysis
-- AI anomaly detection
+- AI anomaly detection using Isolation Forest
 - Failure risk scoring
 - Interactive visualizations
-- Downloadable sample dataset
+- Sample dataset download
 
 ## Tech Stack
 
-Python  
-Streamlit  
-Pandas  
-Plotly  
-Scikit-learn  
+Python
+Streamlit
+Pandas
+Plotly
+Scikit-learn
+
+## Architecture
+
+Radiation Dataset
+        ↓
+Data Processing
+        ↓
+AI Anomaly Detection
+        ↓
+Failure Risk Score
+        ↓
+Visualization Dashboard
+
+![Architecture](architecture.png)
+
+
+
 
 ## Use Case
 
-Satellite electronics degrade when exposed to radiation in space.  
-This dashboard helps engineers detect early signs of subsystem failure.
+Satellite electronics experience voltage degradation under radiation exposure.  
+This tool helps engineers identify early signs of subsystem failure.
 
-## How to Run
+## Demo
 
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the app:
-
-streamlit run app.py
+Live App: https://satellite-radiation-ai-2mufj9g9lp8crgsieruojv.streamlit.app/
