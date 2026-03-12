@@ -32,7 +32,6 @@ Failure Risk Score
         ↓
 Visualization Dashboard
 
-![Architecture](architecture.png)
 
 
 
